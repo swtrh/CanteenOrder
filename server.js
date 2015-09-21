@@ -1,10 +1,9 @@
-var http = require('http');
-var port = process.env.PORT || 13337;
+var express = require('express');
+var port = process.env.PORT || 3000;
+var app = express();
 
-var server = http.createServer(function(req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello World\n');
+app.get('/', funtion(req, res) {
+    res.send('Hello World, mate!');
 });
 
-// Make server list on 'port'
-server.listen(port);
+app.listen(port);
