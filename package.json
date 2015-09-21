@@ -1,25 +1,17 @@
 {
   "name": "CanteenOrder",
-  "version": "0.0.1",
-  "description": "A system to order food and stuff from the canteen",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/swtrh/CanteenOrder.git"
-  },
-  "keywords": [
-    "canteen"
-  ],
-  "author": "Asbjørn Alexander Fellinghaug",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/swtrh/CanteenOrder/issues"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-      "express": "4.13.3"
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
   }
 }
