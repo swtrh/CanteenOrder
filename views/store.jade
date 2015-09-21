@@ -6,3 +6,7 @@ block content
   form(action='#{messageURL}',method='post')
       input(type="text",name="message",placeholder="Enter a message",size="40")
       input(type='submit',name='submit',value='Submit')
+  p List of messages
+  div(class='messages')
+      for result in results
+         p(class='msg') #{result.message}

@@ -1,8 +1,29 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  /*font-family: 'Tangerine', serif;*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 a {
   color: #00B7FF;
+}
+
+.msg {
+    color: #CA1CDA;
+    font-family: 'Trocchi', serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0;
+}
+
+.messages {
+    width: 400px;
+    padding: 20px;
+    background-color: #4e4e4e;
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow:    10px 10px 16px 0px rgba(0, 0, 0, 0.77);
+    box-shadow:         10px 10px 16px 0px rgba(0, 0, 0, 0.77);
 }
