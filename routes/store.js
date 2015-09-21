@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('store.jade', { title: 'Store shit' });
+  res.render('store.jade', { title: 'Store shit', messageURL: process.env.MESSAGE_URL });
 });
 
 router.route('/message')
