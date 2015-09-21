@@ -3,3 +3,6 @@ extends layout
 block content
   h1= title
   p Store shit here
+  form(action='http://localhost:3000/store/message',method='post')
+      input(type="text",name="message",placeholder="Enter a message",size="40")
+      input(type='submit',name='submit',value='Submit')
